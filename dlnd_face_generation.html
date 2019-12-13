@@ -15467,7 +15467,17 @@ Epoch [   20/   20] | d_loss: 0.7357 | g_loss: 2.6111
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><strong>Answer:</strong> (Write your answer in this cell)</p>
+<p><strong>Answer:</strong></p>
+<ul>
+<li><p>With respect to the quality of the pictures, it can be stated that the pixel values of the pictures generated are quite low. However, to increase the resloution, a high performance computer might be needed.</p>
+</li>
+<li><p>The generated faces tend to be in the fair spectrum than to be dark. This is due to having less dark faces comparatively to fair. To improve the diversity it can be recommended that the sample faces to be equally drawn from different ethnicities.</p>
+</li>
+<li><p>I have tried to run models with learning rate of 0.002, convolution dimention of 32, epochs of 10 and a model with 3 convolutional layers. However, the results were not clear as I have now. (Even though the difference in improvement is marginal compared to the time taken to run.) I beleve, with more convolution dimentions and deeper models will genereate much better results however, it will require more computing power and time. My final model has a learning rate of 0.00002 and convolutional dimention of 64 and 4 convolutional layers in the GAN model.</p>
+</li>
+<li><p>I have tried SGD insted of ADAM in one model run though the model did not converge. I believe this could be due to my error in code. Hence, I sticked to ADAM as adviced by the udacity gurus. Further, the epochs of 10 and 20 were tried. It is known that we have to run at least 20 epochs for these kind of models. Hence, it has been chosen as the magic number as it took more than 3 hours to run this even with GPU mode on. However, I believe the results might be better with higher epochs.</p>
+</li>
+</ul>
 
 </div>
 </div>
@@ -15479,6 +15489,19 @@ Epoch [   20/   20] | d_loss: 0.7357 | g_loss: 2.6111
 
 </div>
 </div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span> 
+</pre></div>
+
+    </div>
+</div>
+</div>
+
 </div>
     </div>
   </div>
